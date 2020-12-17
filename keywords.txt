@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map For PDM
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+PDM	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Begin	KEYWORD2
+End	KEYWORD2
+Start	KEYWORD2
+Stop	KEYWORD2
+Pause	KEYWORD2
+Resume	KEYWORD2
+pdm2pcm_init	KEYWORD2
+pdm2pcm_volume	KEYWORD2
+pdm2pcm	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+PDM_OK	LITERAL1
+PDM_ERROR	LITERAL1
