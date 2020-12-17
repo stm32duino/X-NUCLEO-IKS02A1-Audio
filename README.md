@@ -30,7 +30,7 @@ In the file add these lines of code:
 This library acquires PDM, converts PDM to PCM.
 
 ### PDM
-Before acquire PDM it is required to initialized it:
+Before acquire PDM it is required to initialize it:
 
 `   PDM.begin();`
 
@@ -73,4 +73,3 @@ https://github.com/stm32duino/X-NUCLEO-IKS02A1-Audio
 
 The X-NUCLEO-IKS02A1 datasheet is available at
 https://www.st.com/content/st_com/en/products/mems-and-sensors/mems-microphones/imp34dt05.html
-
