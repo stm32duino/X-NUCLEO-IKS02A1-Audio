@@ -8,13 +8,13 @@ Check where the Arduino `preferences.txt` file are in `Arduino IDE -> Preference
 
 	For Example: `C:\Users\Duino\AppData\Local\Arduino15` (Windows)
 
-Then go to `..\packages\STM32\hardware\stm32\<release version>\cores\arduino\stm32\stm32yyxx_hal_conf.h` and open the file.
+Then go to `.\packages\STM32\hardware\stm32\<release version>\cores\arduino\stm32\stm32yyxx_hal_conf.h` and open the file.
 
 In the file add these lines of code:
 
 ```C
 	#if !defined(HAL_I2S_MODULE_DISABLED)
-  		#define HAL_I2S_MODULE_ENABLED
+	  #define HAL_I2S_MODULE_ENABLED
 	#else
 	  #undef HAL_I2S_MODULE_ENABLED
 	#endif
